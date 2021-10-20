@@ -6,10 +6,10 @@ library(mapproj)
 
 
 # Source helper functions -----
-source("C:/STAT 433/Censusapp/CensusApp/helpers.R")
+source("helpers.R")
 
 # Load data ----
-counties <- readRDS("C:/STAT 433/Censusapp/CensusApp/data/counties.rds")
+counties <- readRDS("data/counties.rds")
 
 
 # User interface ----
